@@ -1,0 +1,22 @@
+{
+  "name": "llm-extract-guardrails",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "LLMには抽出だけをさせ、金額と通知は決定論のコードで決める設計サンプル",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.4"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.133.0"
+  }
+}
